@@ -1,0 +1,41 @@
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 75px;
+    margin-left: 40px;
+    
+}
+
+* {
+    background-color:lightgreen;
+    color: black;
+    font-family:Verdana;
+}
+h2 {
+    
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+
+}
+.animals {
+    text-align: center;
+    
+    
+
+}
+
+
+#photos {
+    background-color: yellow
+}
+img {
+    height: 400px;
+    width: 50%;
+}
+a {
+    color: darkblue;
+
+}
+ 

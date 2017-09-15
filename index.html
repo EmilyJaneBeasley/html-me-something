@@ -1,24 +1,68 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
+        
         <title>My trip to the Galapagos Islands</title>
+        <link type="text/css" rel="stylesheet" href="styles.css"/>
+            
     </head>
     <body> 
         <main>
        <header>
-           <h1>My trip to Ecuador and the Galapagos Islands!</h1>
+           
+           <article>
+                <h1>My trip to Ecuador and the Galapagos Islands!</h1>
+                <h3>
+                        <nav >
+                            <ul>
+                                <li><a href="#quito">Quito</a></li>
+                                <li><a href="#cuenca">Cuenca</a></li>
+                                <li><a href="#guaycil">Guayacil</a></li>
+                                <li><a href="#galapagos">Galapagos Islands</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </h3>
+                </article>
+               
+                <article>
+                    <a name="quito"></a>
                 <h2>Quito</h2>
-           <p>Our trip began with a stop in Quito, the capital of Ecuador.</p>
-           <p>The highlight of Quito was traveling up a volcano in a gondola.</p>
-           <img src="https://monicapetroche.files.wordpress.com/2010/02/teleferico_1.jpg" />
-                <h1>Cuenca</h1>
+                 <p>Our trip began with a stop in Quito, the capital of Ecuador.</p>
+                <p>The highlight of Quito was traveling up a volcano in a gondola.</p>
+                <figure>
+                    <img src="https://monicapetroche.files.wordpress.com/2010/02/teleferico_1.jpg"/>
+                    <figcaption>TeleferiQo gondola ride up the eastern side of Pichincha Volcano</figcaption>
+                </figure>
+
+                </article>
+           
+
+           <article>
+                <a name="cuenca"></a>
+           <h2>Cuenca</h2>
+            
            <p>Cuenca is a small town in southern Ecuador's Andes mountains.</p>
            <p>It's famous for it's volcanic spas and being the birthplace of Panama hats.</p>
+           <figure>
            <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/4c/b7/87/filename-140-jpg-thumbnail0.jpg" />
+           <figcaption>Relaxing in a volcanic mud bath at <a href="https://piedradeagua.com.ec"> Piedra De Agua</a></figcaption>
+           </figure>
+           </article>
+
+           <article>
+                <a name="guayacil"></a>
                 <h2>Guayacil</h2>
            <p>Guayacil is a coastal city in western Ecuador.</p>
            <p>It's known as the gateway to the Galapagos Islands.</p>
+           <figure>
            <img src="http://www.tuchmanbeachesguide.com/images/ecuador-salinas.jpg" />
+           <figcaption>Salinas Beach</figcaption>
+           </figure>
+           </article>
+        
+           <article>
+                <a name="galapagos"></a>
                 <h2>The Galapagos Islands</h2>
             <p>The Galapagos Islands are a series of volcanic islands about 600 miles west of Ecuador.</p>
                 <img src="https://naturegalapagos.com/wp-content/uploads/2013/10/Where-are-the-Galapagos-Islands.jpg" />
@@ -26,7 +70,7 @@
             <p>The best part of our trip to the islands was all of the magnificent wildlife.<br> We spent 
                 a week exploring the islands and got up close and personal with many of the islands unusual
             species.</br> Including: </p>
-                <ul>
+                <ul class="animals">
                     <li>The famous Galapagos tortoise</li>
                     <li>Marine iguanas</li>
                     <li>Sea lions</li>
@@ -35,12 +79,17 @@
                     <li>Sea horses</li>
                     <li>Penguins</li>
                     <li>Blue footed boobies</li>
-                    <li>And my favorite, black and white tipped reef sharks!</li>
+                    <li id="favorite">And my favorite, black and white tipped reef sharks!</li>
                 </ul>
+                <a id="photos" href="https://photos.google.com/share/AF1QipPvL7Y1J6cv0c2pAAziqRk_TEgNW7-UvLZo0gnvAhQIlYRRlECOulyc98qWvp-3NA?key=T1lvVGZKNm1hMWg0WGo4SFIycGZFN1lxNmIxQVh3"> To see more photos, click here!</a>
+            </article>
 
         </header>
 
+        <footer>
+            <p>Posted by: Emily Beasley &copy; 2017</p>
 
+        </footer>
     </main>
 
 
